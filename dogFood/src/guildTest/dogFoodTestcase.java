@@ -62,7 +62,6 @@ class dogFoodTestcase {
     void leftOverConditions(){
         assertEquals("Food required is 384",dogFoodObject.foodRequired(5,3,7,0),"Left over value can be 0");
         assertEquals("Value can not be in negative",dogFoodObject.foodRequired(5,3,7,-17),"Left over value can be 0");
-
 //        assertEquals("Value can not be character",dogFoodObject.foodRequired(5,3,7,-'a'),"Left over value can not be character");
     }
 }

@@ -43,6 +43,5 @@ public class dogFood {
     {
         System.out.println(foodRequired(3,5,7,17));
     }
-
 }
 
